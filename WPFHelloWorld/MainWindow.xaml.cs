@@ -27,7 +27,10 @@ namespace WPFHelloWorld
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button.ContentProperty 
+            mijnlabel.Content = "De wereldbol is een ruimteschip.";
+
+
+
         }
     }
 }
